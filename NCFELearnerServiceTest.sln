@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCFELearnerServiceTest", "NCFELearnerServiceTest\NCFELearnerServiceTest.csproj", "{F2070822-70E3-4F28-90D0-C95E0C860ADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCFELearnerServiceTest.Tests", "NCFELearnerServiceTest.Tests\NCFELearnerServiceTest.Tests.csproj", "{47DC90F8-6098-40F9-9E76-CBBA1766C01A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2070822-70E3-4F28-90D0-C95E0C860ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2070822-70E3-4F28-90D0-C95E0C860ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2070822-70E3-4F28-90D0-C95E0C860ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2070822-70E3-4F28-90D0-C95E0C860ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47DC90F8-6098-40F9-9E76-CBBA1766C01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47DC90F8-6098-40F9-9E76-CBBA1766C01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47DC90F8-6098-40F9-9E76-CBBA1766C01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47DC90F8-6098-40F9-9E76-CBBA1766C01A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {301C6547-9249-4E65-95A9-48ABC3C12E22}
+	EndGlobalSection
+EndGlobal
