@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NCFELearnerServiceTest
+namespace NCFELearnerServiceTest.DAL
 {
     public class FailoverEntry
     {

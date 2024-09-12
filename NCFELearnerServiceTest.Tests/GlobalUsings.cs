@@ -3,3 +3,5 @@ using NCFELearnerServiceTest.Tests;
 
 LearnerServiceTest learnerServiceTest = new LearnerServiceTest();
 await learnerServiceTest.TestLearnerServiceForArchivedLearner();
+
+await learnerServiceTest.TestLearnerServiceForFailoverLearner();

@@ -2,9 +2,10 @@
 using Microsoft.Net.Http.Headers;
 using System.Configuration;
 using System.Net;
-using Newtonsoft.Json; 
+using Newtonsoft.Json;
+using NCFELearnerServiceTest.BLL;
 
-namespace NCFELearnerServiceTest
+namespace NCFELearnerServiceTest.DAL
 {
     public class LearnerDataAccess
     {

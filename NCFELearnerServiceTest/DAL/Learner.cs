@@ -1,4 +1,4 @@
-﻿namespace NCFELearnerServiceTest
+﻿namespace NCFELearnerServiceTest.DAL
 {
     public class Learner
     {
@@ -6,9 +6,10 @@
 
         public string Name { get; set; }
 
-        public Learner() { 
+        public Learner()
+        {
         }
-        public Learner(int learnerId,string learnerName)
+        public Learner(int learnerId, string learnerName)
         {
             Id = learnerId;
             Name = learnerName;

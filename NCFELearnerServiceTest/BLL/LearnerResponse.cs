@@ -1,4 +1,6 @@
-﻿namespace NCFELearnerServiceTest
+﻿using NCFELearnerServiceTest.DAL;
+
+namespace NCFELearnerServiceTest.BLL
 {
     public class LearnerResponse
     {
@@ -11,11 +13,12 @@
         public Learner Learner { get; set; }
 
         // constructor to intialise learner response object
-        public LearnerResponse(int _datasourceEnum, Learner learner) { 
+        public LearnerResponse(int _datasourceEnum, Learner learner)
+        {
 
             DataSourceEnum = _datasourceEnum;
-            Learner = learner;  
-        
+            Learner = learner;
+
         }
     }
 }

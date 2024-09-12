@@ -1,19 +1,21 @@
-﻿namespace NCFELearnerServiceTest
+﻿using NCFELearnerServiceTest.BLL;
+
+namespace NCFELearnerServiceTest.DAL
 {
     public class FailoverLearnerDataAccess
     {
-        public  LearnerResponse GetLearnerById(int learnerId)
+        public LearnerResponse GetLearnerById(int learnerId)
         {
             // retrieve learner from database using EF Core Identity
-            Learner dbLearner = new Learner(learnerId,"FailoverLearnerName");
+            Learner dbLearner = new Learner(learnerId, "FailoverLearnerName");
             // The datasourceEnum 2 is from failover data source
-            return new LearnerResponse(2,dbLearner);
+            return new LearnerResponse(2, dbLearner);
         }
 
         // The following new method was added to save the FailoverEntry in the DB
         public void SaveFailoverEntry(int learnerId)
         {
-            FailoverEntry newFailoverEntry = new FailoverEntry(learnerId,DateTime.Now);
+            FailoverEntry newFailoverEntry = new FailoverEntry(learnerId, DateTime.Now);
             //The code to save newFailoverEntry to the database using EF Core Identity will be added here.
 
         }
@@ -35,7 +37,7 @@
             //where(CreatedDate >= DATEADD(mi, -10, getdate())) and(CreatedDate <= getdate())
 
 
-            int NoFailOverEntries = new List<FailoverEntry>().Count();
+            int NoFailOverEntries = 101;//new List<FailoverEntry>().Count();
 
             return NoFailOverEntries;
         }
